@@ -1,0 +1,30 @@
+{
+  "name": "devtools-extension",
+  "version": "0.0.0",
+  "description": "An editor-framework app.",
+  "author": "",
+  "hosts": {
+    "editor-framework": "^0.3.16"
+  },
+  "dependencies": {
+  },
+  "main": "main.js",
+  "menus": {
+    "Panels/devtools-extension.panel": {
+      "message": "devtools-extension:open"
+    }
+  },
+  "panels": {
+    "panel": {
+      "frame": "panel/panel.html",
+      "type": "dockable",
+      "title": "devtools-extension",
+      "width": 200,
+      "height": 200,
+      "min-width": 200,
+      "min-height": 200,
+      "shortcuts": {},
+      "messages": []
+    }
+  }
+}
